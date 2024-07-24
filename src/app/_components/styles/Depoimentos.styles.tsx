@@ -21,6 +21,9 @@ export const DepoimentosTitulo = styled.h1`
     font-family: var(--type-roboto);
     font-weight: 400;
     text-transform: uppercase;
+    @media (min-width: 320px) and (max-width: 480px) {
+        font-size: 32px;
+        }  
 `
 
 export const ContainerTextDepoimentos = styled.div`

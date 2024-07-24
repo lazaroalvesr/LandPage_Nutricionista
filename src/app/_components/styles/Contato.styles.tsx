@@ -72,7 +72,7 @@ export const TituloDiv1 = styled.h1`
   text-transform: uppercase;
   font-family: var(--type-roboto);
   @media (min-width: 320px) and (max-width: 480px) {
-  font-size: 40px;
+  font-size: 32px;
   text-align: center;
         }  
 `
@@ -122,7 +122,8 @@ export const LogoForm = styled.h2`
     align-items: center;
     @media (min-width: 320px) and (max-width: 480px) {
    padding-left: 40px;
-    }  
+    font-size: 32px;
+    }   
 `
 
 export const IconeLaranjaForm = styled.p`
@@ -136,6 +137,10 @@ export const IconeLaranjaForm = styled.p`
     left: 73px;
     background-color: #FD9126;
     color: white;
+    @media (min-width: 320px) and (max-width: 480px) {
+        width: 70px;
+        height: 70px;
+    }   
 `
 
 export const DivItens2 = styled.div`
@@ -145,7 +150,7 @@ export const DivItens2 = styled.div`
   flex-direction: column;
   @media (min-width: 320px) and (max-width: 480px) {
     width: 330px;
-    margin-left: 20px;
+margin: auto;
         }  
 `
 
@@ -164,6 +169,9 @@ export const DivItenInput = styled.input`
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding-left: 12px;
+    @media (min-width: 320px) and (max-width: 480px) {
+  width: 100%;
+        }  
 `
 
 export const DivItenTextarea = styled.textarea`

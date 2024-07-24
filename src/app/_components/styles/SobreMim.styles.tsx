@@ -48,17 +48,17 @@ export const SobreMimTitulo = styled.h1`
     }
 
     @media (min-width: 320px) and (max-width: 480px) {
-      font-size: 38px;
+      font-size: 32px;
       &&::after{
         content: '';
-        width: 160px;
+        width: 120px;
         height: 5px;
         display: block;
         background-color: #EA6C00;
         border-radius: 10px;
         position: absolute;
         top: 50px;
-        left: 100px;
+        left: 120px;
     }
         } 
 `
@@ -66,7 +66,7 @@ export const SobreMimTitulo = styled.h1`
 export const TextSpan = styled.p`
     font-family: var(--type-roboto);
     font-weight: 300;
-    font-size: 20px;
+    font-size: px;
     display: flex;
     color: #979797;
 `
@@ -109,6 +109,7 @@ export const TextSobreMimInfos = styled.p`
      width: 600px;
      @media (min-width: 320px) and (max-width: 480px) {
    width: 100%;
+   font-size: 18px;
    text-align: center;
    padding-bottom: 30px;
         } 

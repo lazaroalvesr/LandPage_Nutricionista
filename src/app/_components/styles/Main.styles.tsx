@@ -40,8 +40,8 @@ export const MainH1 = styled.h1`
     width: 500px;
     @media (min-width: 320px) and (max-width: 480px) {
    text-align: center;
-   font-size: 38px;
-   width: 380px;
+   font-size: 32px;
+   width: 100%;
         } 
 `
 
@@ -57,7 +57,7 @@ export const MainText = styled.p`
       text-align: center;
       padding-top: 370px;
       font-size: 20px;
-      width: 380px;
+      width: 350px;
       } 
 `
 
