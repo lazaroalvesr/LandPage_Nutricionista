@@ -12,7 +12,7 @@ export const Contato = () => {
     return (
         <ContatoContainer>
             <ContatoMap src="/img/maps.png" />
-            <DivForm>
+            <DivForm id="contato">
                 <FormContainer onSubmit={submit}>
                     <ContainerItens>
                         <DivItens1>

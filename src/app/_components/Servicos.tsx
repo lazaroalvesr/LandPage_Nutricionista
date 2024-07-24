@@ -3,8 +3,8 @@ import { ButtonServicos, Card, CardImg, CardServicosContainer, CardText, CardTit
 
 export const Servicos = () => {
     return (
-        <GlobalStyle>
-            <ServicosContainer>
+        <GlobalStyle id="servicos">
+            <ServicosContainer >
                 <DivTextServicos>
                     <ServicosTitulo>Serviços</ServicosTitulo>
                     <TextSpanServicos>O que eu posso fazer</TextSpanServicos>

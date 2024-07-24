@@ -4,7 +4,7 @@ import { ContainerDivSobreMim, DivImg, DivTextSobre, Img2, SobreMimContainer, So
 export const SobreMim = () => {
     return (
         <GlobalStyle>
-            <SobreMimContainer>
+            <SobreMimContainer id="sobre">
                 <DivTextSobre>
                     <SobreMimTitulo>Sobre Mim</SobreMimTitulo>
                     <TextSpan>Nutricionista - CRN-8 12.345</TextSpan>

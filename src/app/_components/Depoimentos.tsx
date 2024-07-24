@@ -26,7 +26,7 @@ export const Depoimentos = () => {
 
     return (
         <GlobalStyle>
-            <DepoimentosContainer>
+            <DepoimentosContainer id="depoimentos">
                 <DepoimentosTitulo>Depoimentos</DepoimentosTitulo>
                 <ContainerTextDepoimentos>
                     <IconSetaLeft src="/icon/ArrowCircleLeft.svg" alt="Icone seta esquerda" onClick={handlePrev} />
