@@ -27,6 +27,7 @@ export const InfoCopy = styled.p`
     width: 200px;
     @media (min-width: 320px) and (max-width: 480px) {
   width: 100%;
+  text-align: center;
     }   
 `
 

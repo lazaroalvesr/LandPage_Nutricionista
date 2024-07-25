@@ -67,7 +67,7 @@ export const DivItens1 = styled.div`
 
 export const TituloDiv1 = styled.h1`
   color: #643E1D;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 400;
   text-transform: uppercase;
   font-family: var(--type-roboto);
@@ -79,8 +79,9 @@ export const TituloDiv1 = styled.h1`
 
 export const SubtituloDiv1 = styled.p`
  color: #9C7D84;
-  font-size: 14px;
+  font-size: 13px;
   padding-top: 20px;
+  padding-left: 4px;
   width: 300px;
   font-weight: 400;
   text-transform: uppercase;
@@ -163,14 +164,14 @@ export const DivItenLabel = styled.label`
 
 export const DivItenInput = styled.input`
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-top: 12px;
     border: 2px solid white;
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding-left: 12px;
     @media (min-width: 320px) and (max-width: 480px) {
   width: 100%;
+  margin-left: -2px;
         }  
 `
 
